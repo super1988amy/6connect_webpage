@@ -1,7 +1,14 @@
-@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic);
 
 .body {
-	font-family:'PT Sans', sans-serif;
+	background: #F9F9F9;
+}
+
+a {
+	color: #133439 !important;
+}
+a:hover {
+	color: #144B55 !important; 
+	text-decoration: initial;
 }
 
 .header{
@@ -28,25 +35,23 @@
 /* section SignUp */
 #SignUp .six-container {
 	padding-top: 195px;
-	width: 700px;
+	width: 800px;
 }
 
 #SignUp .title {
 	width: 100%;
 	color: #f9bc34;
 	font-size: 44px;
-	font-family:'PT Sans', sans-serif;
 	margin-bottom: 20px;
 }
 
 #SignUp .subtitle{
 	color: #fff;
 	font-size: 25px;
-	font-family:'PT Sans', sans-serif;
 	margin-bottom: 38px;
 }
 
-#Signup .function-icon{
+.function-icon{
 	width: 128px;
 	height: 128px;
 	border-radius: 99em;
@@ -57,11 +62,58 @@
 
 }
 
-#Signup .function-text{
+.function-text{
 	color: #fff;
 	font-size: 16px;
 }
 
+#SignUp .col-md-3 .lower{
+	margin-top:  90px;
+}
+
+#SignUp .content {
+	margin-bottom: 60px;
+}
+
+#SignUp .sign_up_btn {
+	padding: 10px 35px;
+    background: #fbbd34;
+    font-size: 26px;
+    width: 228px;
+}
+
+#SignUp .learn_more {
+	padding: 10px;
+	background: #fbbd34;
+	font-size: 15px;
+	width: 118px;
+	margin-top: 30px;
+	color: #FFFFFF;
+}
+
+
+/* section LearnMore */
+#LearnMore {
+	width: 100%;
+	background: #fbbd34;
+	padding: 30px 0;
+}
+
+#LearnMore .title {
+	width: 100%;
+	color: #143338;
+	font-size: 26px;
+	margin-bottom: 46px;
+}
+
+#LearnMore .feature-img{
+	width: 135px;
+	height: 135px;
+	background-color: #fff;
+	margin: 0px auto;
+	margin-bottom: 20px;
+
+}
 
 
 
