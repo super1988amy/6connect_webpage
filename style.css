@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic);
+
+.body {
+	font-family:'PT Sans', sans-serif;
+}
+
+.header{
+		width: 100%;
+		height: 98px;
+		background-color: rgba(255, 255, 255, 0.5);
+		padding:10px;
+	}
+
+
+.logo {
+	float: left;
+	width:358px;
+	height:73px;
+	background: url(images/logo.png) no-repeat;
+}
+
+.cover {
+	width: 100%;
+}
+
+
+
+/* section SignUp */
+#SignUp .six-container {
+	padding-top: 195px;
+	width: 700px;
+}
+
+#SignUp .title {
+	width: 100%;
+	color: #f9bc34;
+	font-size: 44px;
+	font-family:'PT Sans', sans-serif;
+	margin-bottom: 20px;
+}
+
+#SignUp .subtitle{
+	color: #fff;
+	font-size: 25px;
+	font-family:'PT Sans', sans-serif;
+	margin-bottom: 38px;
+}
+
+#Signup .function-icon{
+	width: 128px;
+	height: 128px;
+	border-radius: 99em;
+	background-color: #fff;
+	box-shadow:4px 4px 3px rgba(10%,10%,20%,0.5);
+	margin: 0px auto;
+	margin-bottom: 20px;
+
+}
+
+#Signup .function-text{
+	color: #fff;
+	font-size: 16px;
+}
+
+
+
+
+
