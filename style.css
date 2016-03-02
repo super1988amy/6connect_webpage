@@ -32,7 +32,7 @@ a:hover {
 
 
 
-/* section SignUp */
+/***** section SignUp *****/
 #SignUp .six-container {
 	padding-top: 195px;
 }
@@ -78,8 +78,21 @@ a:hover {
     width: 228px;
 }
 
+#SignUp .learn_more {
+	padding: 10px;
+	background: #fbbd34;
+	font-size: 15px;
+	width: 118px;
+	margin-top: 30px;
+	color: #FFFFFF;
+}
+
+/* arrow animation setting */
+#SignUp .arrow_down {
+	color: #fbbd34;
+}
+
 .arrow_down {
-		color: #fbbd34;
     	font-size: 25px;
     	width: 25px;
     	margin-top: 8px;
@@ -94,17 +107,10 @@ a:hover {
     	to {margin-top: 25px;}
 }
 
-#SignUp .learn_more {
-	padding: 10px;
-	background: #fbbd34;
-	font-size: 15px;
-	width: 118px;
-	margin-top: 30px;
-	color: #FFFFFF;
-}
 
 
-/* section LearnMore */
+
+/***** section LearnMore *****/
 #LearnMore {
 	width: 100%;
 	background: #fbbd34;
@@ -123,7 +129,7 @@ a:hover {
 	margin-bottom: 46px;
 }
 
-#LearnMore .feature-img{
+#LearnMore .feature-img {
 	width: 135px;
 	height: 135px;
 	background-color: #fff;
@@ -132,8 +138,12 @@ a:hover {
 
 }
 
-#LearnMore .content{
-	margin-bottom: 20px;
+#LearnMore .content {
+	margin-bottom: 50px;
+}
+
+#LearnMore .feature {
+	margin-bottom: 30px;
 }
 
 #LearnMore .learn_more {
@@ -145,7 +155,7 @@ a:hover {
 	color: #FFFFFF;
 }
 
-/* section Features */
+/***** section Features *****/
 #Features {
 	width: 100%;
 	background: #133439;
@@ -174,17 +184,92 @@ a:hover {
 }
 
 
+/***** section L *****/
 
 
 
-@media (max-width: 768px) {
+
+/***** Media Query Setting *****/
+@media (max-width: 424px) {
+#SignUp .cover {
+	height: 1408px;
+}
+
+}
+
+
+@media (min-width: 404px) and (max-width: 420px){
+#LearnMore {
+	height: 1390px;
+}
+}
+
+
+@media (min-width: 420px) and (max-width: 454px){
+#LearnMore {
+	height: 1370px;
+}
+}
+
+
+@media (min-width: 454px) and (max-width: 507px){
+#LearnMore {
+	height: 1312px;
+}
+}
+
+@media (min-width: 424px) and (max-width: 670px){
 #SignUp .col-sm-6 .function{
     margin-bottom: 30px;
 }
 
 #SignUp .cover {
-	height: 1495px;
+	height: 1493px;
 }
+}
+
+
+@media (min-width: 507px) and (max-width: 520px){
+#LearnMore {
+	height: 1312px;
+}
+}
+
+@media (min-width: 520px) and (max-width: 670px){
+#LearnMore {
+	height: 1256px;
+}
+}
+
+@media (min-width: 670px) and (max-width: 691px){
+#LearnMore {
+	height: 1256px;
+}
+}
+
+@media (min-width: 691px) and (max-width: 731px){
+#LearnMore {
+	height: 1236px;
+}
+}
+
+@media (min-width: 731px) and (max-width: 768px){
+#LearnMore {
+	height: 1200px;
+}
+}
+
+
+@media (min-width: 670px) and (max-width: 768px){
+#SignUp .col-sm-6 .function{
+    margin-bottom: 30px;
+}
+
+#SignUp .cover {
+	height: 1432px;
+}
+
+
 
 }
 
@@ -195,6 +280,10 @@ a:hover {
 
 #SignUp .cover {
 	height: 1033px;
+}
+
+#LearnMore {
+	height: 790px;
 }
 
 }
@@ -215,6 +304,17 @@ a:hover {
 	height: 880px;
 }
 
+#LearnMore{
+	height: 564px;
 }
+
+}
+
+
+
+
+
+
+
 
 
