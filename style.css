@@ -78,6 +78,22 @@ a:hover {
     width: 228px;
 }
 
+.arrow_down {
+		color: #fbbd34;
+    	font-size: 25px;
+    	width: 25px;
+    	margin-top: 8px;
+}
+.arrow_down:hover {
+	-webkit-animation: downanimation 1s infinite;
+    animation: downanimation 1s infinite;
+}
+
+@-webkit-keyframes downanimation {
+		from {margin-top: 8px;}
+    	to {margin-top: 25px;}
+}
+
 #SignUp .learn_more {
 	padding: 10px;
 	background: #fbbd34;
@@ -159,6 +175,31 @@ a:hover {
 
 
 
+
+
+@media (max-width: 768px) {
+#SignUp .col-sm-6 .function{
+    margin-bottom: 30px;
+}
+
+#SignUp .cover {
+	height: 1495px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+#SignUp .col-sm-6 .function{
+    margin-bottom: 30px;
+}
+
+#SignUp .cover {
+	height: 1033px;
+}
+
+}
+
+
 @media (min-width: 992px) {
 
 #SignUp .six-container {
@@ -170,17 +211,10 @@ a:hover {
 
 }
 
+#SignUp .cover {
+	height: 880px;
 }
 
-@media (min-width: 768px) {
-#SignUp .col-sm-6 .function{
-    margin-bottom: 30px;
-}
 }
 
-@media (max-width: 768px) {
-#SignUp .col-sm-6 .function{
-    margin-bottom: 30px;
-}
-}
 
