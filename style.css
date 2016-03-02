@@ -129,14 +129,38 @@ a:hover {
 	margin-bottom: 46px;
 }
 
-#LearnMore .feature-img {
-	width: 135px;
+#LearnMore .LearnMore-img {
+	width: 190px;
 	height: 135px;
-	background-color: #fff;
+	background-color: #fbbd34;
 	margin: 0px auto;
 	margin-bottom: 20px;
 
 }
+
+
+#LearnMore .learnMore-icons {
+	width: 190px;
+	height: 135px;
+	background: url(images/LearnMore_img.png) no-repeat;
+}
+
+#LearnMore .icon1 {
+	background-position: 0px 0px;
+}
+
+#LearnMore .icon2 {
+	background-position: -190px 0px;
+}
+
+#LearnMore .icon3 {
+	background-position: -380px 0px;
+}
+
+#LearnMore .icon4 {
+	background-position: -570px 0px;
+}
+
 
 #LearnMore .content {
 	margin-bottom: 50px;
