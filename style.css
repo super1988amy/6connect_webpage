@@ -50,7 +50,7 @@ a:hover {
 	margin-bottom: 38px;
 }
 
-.function-icon{
+.function-img{
 	width: 128px;
 	height: 128px;
 	border-radius: 99em;
@@ -58,8 +58,34 @@ a:hover {
 	box-shadow:4px 4px 3px rgba(10%,10%,20%,0.5);
 	margin: 0px auto;
 	margin-bottom: 20px;
-
 }
+
+
+/* icon setting */
+#SignUp .fucntion-icons {
+	width: 128px;
+	height: 128px;
+	background: url(images/SignUp_img.png) no-repeat;
+}
+
+#SignUp .icon1 {
+	background-position: 0px 0px;
+}
+
+#SignUp .icon2 {
+	background-position: -128px 0px;
+}
+
+#SignUp .icon3 {
+	background-position: -256px 0px;
+}
+
+#SignUp .icon4 {
+	background-position: -384px 0px;
+}
+/* icon setting */
+
+
 
 .function-text{
 	color: #fff;
@@ -78,6 +104,7 @@ a:hover {
     width: 228px;
 }
 
+
 #SignUp .learn_more {
 	padding: 10px;
 	background: #fbbd34;
@@ -86,6 +113,13 @@ a:hover {
 	margin-top: 30px;
 	color: #FFFFFF;
 }
+
+
+
+
+
+
+
 
 /* arrow animation setting */
 #SignUp .arrow_down {
@@ -139,6 +173,7 @@ a:hover {
 }
 
 
+/* icon setting */
 #LearnMore .learnMore-icons {
 	width: 190px;
 	height: 135px;
@@ -160,6 +195,7 @@ a:hover {
 #LearnMore .icon4 {
 	background-position: -570px 0px;
 }
+/* icon setting */
 
 
 #LearnMore .content {
