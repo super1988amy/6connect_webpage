@@ -35,7 +35,6 @@ a:hover {
 /* section SignUp */
 #SignUp .six-container {
 	padding-top: 195px;
-	width: 800px;
 }
 
 #SignUp .title {
@@ -67,9 +66,6 @@ a:hover {
 	font-size: 16px;
 }
 
-#SignUp .col-md-3 .lower{
-	margin-top:  90px;
-}
 
 #SignUp .content {
 	margin-bottom: 60px;
@@ -98,6 +94,11 @@ a:hover {
 	background: #fbbd34;
 	padding: 30px 0;
 }
+
+#LearnMore .row {
+	margin: 0;
+}
+
 
 #LearnMore .title {
 	width: 100%;
@@ -154,5 +155,32 @@ a:hover {
 	font-size: 22px;
 	padding-top: 13px;
 	padding-bottom: 13px;
+}
+
+
+
+@media (min-width: 992px) {
+
+#SignUp .six-container {
+	width: 800px;
+}
+
+#SignUp .col-md-3 .lower{
+	margin-top:  90px;
+
+}
+
+}
+
+@media (min-width: 768px) {
+#SignUp .col-sm-6 .function{
+    margin-bottom: 30px;
+}
+}
+
+@media (max-width: 768px) {
+#SignUp .col-sm-6 .function{
+    margin-bottom: 30px;
+}
 }
 
