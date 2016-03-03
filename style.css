@@ -6,9 +6,14 @@
 a {
 	color: #133439 !important;
 }
+
 a:hover {
 	color: #144B55 !important; 
 	text-decoration: initial;
+}
+
+a.active {
+		color: #fbbd34 !important;
 }
 
 .header{
@@ -225,7 +230,7 @@ a:hover {
 #Features {
 	width: 100%;
 	background: #133439;
-	padding: 50px 0;
+	padding: 50px 0 0 0;
 }
 
 #Features .container {
@@ -349,6 +354,33 @@ a:hover {
 
 
 
+/***** section Footer *****/
+
+footer .container {
+	width: 100%;
+	background: #FFFFFF;
+}
+
+footer .container .footer-logo{
+	padding: 35px 35px 0 35px;
+}
+
+footer .container .footer-links{
+	padding: 10px;
+}
+
+footer .container .footer-links .title{
+	margin: 20px 0;
+    color: #144B55;
+}
+
+
+footer h1, footer h2, footer h3, footer h4 {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+
 
 
 /***** Media Query Setting *****/
@@ -360,6 +392,13 @@ a:hover {
 #Features .feature-text {
 	margin-bottom: 0px;
 }
+
+.footer-logo .logo {
+  float:none;
+  display:block;
+  margin:0 auto 30px;
+}
+
 
 }
 
@@ -417,6 +456,16 @@ a:hover {
 #LearnMore {
 	height: 1256px;
 }
+
+}
+
+@media screen and (max-width: 670px){
+.footer-logo .logo {
+	float:none;
+	display:block;
+	margin:0 auto 30px;
+}
+
 }
 
 @media (min-width: 670px) and (max-width: 691px){
@@ -435,6 +484,12 @@ a:hover {
 #LearnMore {
 	height: 1200px;
 }
+
+.footer-logo {
+    float: none;
+    display: block;
+    margin: 0 auto 30px;
+}
 }
 
 
@@ -449,7 +504,7 @@ a:hover {
 }
 
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
 #Features .feature-text {
 	margin-bottom: 0px;
 }
@@ -462,6 +517,12 @@ a:hover {
     height: 0px;
 
 }
+
+ .footer-logo .logo {
+      float:none;
+      display:block;
+      margin:0 auto 30px;
+ }
 
 
 }
