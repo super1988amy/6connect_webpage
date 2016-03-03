@@ -16,6 +16,17 @@
 	<link rel="shortcut icon" href="http://connect1.uat.6parcels.com/resource/images/favicons.png">
 	<title>6Connect Corporate</title>
 
+	<style>
+	@media screen and (max-width: 760px) {
+	    .navbar .logo {
+	        width: 80px;
+	        height: 80px;
+	        background: url(http://connect1.uat.6parcels.com/resource/images/6connect-logo-heaer.png);
+	        margin: 0 !important;
+	    }
+	}
+	</style>
+
 	
 
 </head>
@@ -23,9 +34,18 @@
 
 <nav class="navbar navbar-fixed-top header">
 	<div="row">
-	<div class="col-md-4">
+	<div class="col-md-4 col-sm-3 col-xs-1">
 		<a href="#"><div class="logo"></div></a>
 	</div>
+
+	<div class="col-sm-offset-4 col-md-4 col-sm-5 col-xs-offset-1 col-xs-10">
+		<ul class="list-inline pull-right">
+			<li><h3><a class="header-btn" href="http://connect1.uat.6parcels.com/">Features</a></h3></li>
+			<li><h3><a class="header-btn"href="http://connect1.uat.6parcels.com/account/sign_in">More</a></h3></li>
+			<li><h3><a class="header-btn header-login" href="http://connect1.uat.6parcels.com/contact_us">Login</a></h3></li>
+		</ul>
+	</div>	
+
 	<div class="col-sm-4"></div>
 	</div>
 </nav>	

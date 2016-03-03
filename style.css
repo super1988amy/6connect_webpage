@@ -37,6 +37,32 @@ a.active {
 
 
 
+/***** header *****/
+.header-btn {
+	padding: 5px 10px;
+	background: #fbbd34;
+	font-size: 16px;
+	border: solid 2px;
+	border-color: #fbbd34;
+}
+
+.list-inline {
+	margin-top: 10px;
+}
+
+.header-btn.header-login {
+	background: none;
+	border: solid 2px;
+	border-color: #fbbd34;
+}
+
+.header-btn.header-login {
+	color: #fff !important;
+}
+
+
+
+
 /***** section SignUp *****/
 #SignUp .six-container {
 	padding-top: 195px;
@@ -509,6 +535,14 @@ footer h1, footer h2, footer h3, footer h4 {
 
 
 @media screen and (max-width: 768px){
+.nav .logo {
+	width: 80px;
+    height: 80px;
+    background: url(http://connect1.uat.6parcels.com/resource/images/6connect-logo-heaer.png);
+    margin: 0 !important;
+}
+
+
 #Features .feature-text {
 	margin-bottom: 0px;
 }
