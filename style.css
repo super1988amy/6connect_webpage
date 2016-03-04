@@ -408,6 +408,18 @@ footer h1, footer h2, footer h3, footer h4 {
 
 
 
+.join_6Parcels {
+    padding: 12px 15px 8px;
+    background: #144B55;
+    width: 234px;
+    color: #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+    -webkit-border-radius: 20px 20px 0px 0px;
+    -moz-border-radius: 20px 20px 0px 0px;
+    margin: 20px 10px 0
+}
+
+
 
 /***** Media Query Setting *****/
 @media (max-width: 424px) {
