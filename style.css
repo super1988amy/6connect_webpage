@@ -39,7 +39,7 @@ a.active {
 
 /***** header *****/
 .header-btn {
-	padding: 5px 10px;
+	padding: 5px 8px;
 	background: #fbbd34;
 	font-size: 16px;
 	border: solid 2px;
@@ -437,7 +437,32 @@ footer h1, footer h2, footer h3, footer h4 {
   margin:0 auto 30px;
 }
 
+.header-btn {
+	padding: 5px 20px;
+}
 
+
+}
+
+@media (max-width: 543px) {
+.header{ height: 135px;
+}
+
+.logo {
+	margin-top: 18px;
+}
+
+.header .pull-right {
+	text-align: right;
+}
+
+.header-btn {
+	padding: 5px 17px;
+}
+
+.header-btn.header-login{
+	padding:5px 15px;
+}
 }
 
 
@@ -551,7 +576,7 @@ footer h1, footer h2, footer h3, footer h4 {
 	width: 80px;
     height: 80px;
     background: url(http://connect1.uat.6parcels.com/resource/images/6connect-logo-heaer.png);
-    margin: 0 !important;
+    margin: 0;
 }
 
 
