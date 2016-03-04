@@ -422,10 +422,22 @@ footer h1, footer h2, footer h3, footer h4 {
 
 
 /***** Media Query Setting *****/
+
+
 @media (max-width: 424px) {
+
+.col-xs-offset-1 {
+		margin-left: 5%;
+}
+
+
+
 #SignUp .cover {
 	height: 1408px;
+
 }
+
+
 
 #Features .feature-text {
 	margin-bottom: 0px;
